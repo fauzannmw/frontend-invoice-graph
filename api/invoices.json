@@ -1,0 +1,246 @@
+[
+  {
+    "invoice_number": "inv-1234",
+    "customer_name": "John Doe",
+    "salesperson_name": "Jane Smith",
+    "product_sold": [
+      {
+        "id": 1,
+        "name": "Produk 1",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 100,
+        "price": 10.0,
+        "quantity": 2
+      },
+      {
+        "id": 2,
+        "name": "Produk 2",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 200,
+        "price": 20.0,
+        "quantity": 3
+      }
+    ],
+    "invoice_notes": "This is a sample invoice invoice_notes.",
+    "total_amount": 80.0,
+    "invoice_date": "2023-06-01"
+  },
+  {
+    "invoice_number": "inv-5678",
+    "customer_name": "Alice Johnson",
+    "salesperson_name": "Bob Brown",
+    "product_sold": [
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 1
+      },
+      {
+        "id": 1,
+        "name": "Produk 1",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 100,
+        "price": 10.0,
+        "quantity": 4
+      }
+    ],
+    "invoice_notes": "Another invoice invoice_notes goes here.",
+    "total_amount": 120.0,
+    "invoice_date": "2023-06-02"
+  },
+  {
+    "invoice_number": "inv-2345",
+    "customer_name": "Charlie Brown",
+    "salesperson_name": "Daisy Green",
+    "product_sold": [
+      {
+        "id": 2,
+        "name": "Produk 2",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 200,
+        "price": 20.0,
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 2
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for Charlie Brown.",
+    "total_amount": 80.0,
+    "invoice_date": "2023-06-03"
+  },
+  {
+    "invoice_number": "inv-6789",
+    "customer_name": "David White",
+    "salesperson_name": "Eve Black",
+    "product_sold": [
+      {
+        "id": 1,
+        "name": "Produk 1",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 100,
+        "price": 10.0,
+        "quantity": 5
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for David White.",
+    "total_amount": 50.0,
+    "invoice_date": "2023-06-04"
+  },
+  {
+    "invoice_number": "inv-3456",
+    "customer_name": "Eleanor Blue",
+    "salesperson_name": "Frank Yellow",
+    "product_sold": [
+      {
+        "id": 2,
+        "name": "Produk 2",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 200,
+        "price": 20.0,
+        "quantity": 3
+      },
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 1
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for Eleanor Blue.",
+    "total_amount": 90.0,
+    "invoice_date": "2023-06-05"
+  },
+  {
+    "invoice_number": "inv-7890",
+    "customer_name": "Fiona Red",
+    "salesperson_name": "George Green",
+    "product_sold": [
+      {
+        "id": 1,
+        "name": "Produk 1",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 100,
+        "price": 10.0,
+        "quantity": 3
+      },
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 2
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for Fiona Red.",
+    "total_amount": 90.0,
+    "invoice_date": "2023-06-06"
+  },
+  {
+    "invoice_number": "inv-4567",
+    "customer_name": "George Purple",
+    "salesperson_name": "Hannah White",
+    "product_sold": [
+      {
+        "id": 2,
+        "name": "Produk 2",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 200,
+        "price": 20.0,
+        "quantity": 2
+      },
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 3
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for George Purple.",
+    "total_amount": 120.0,
+    "invoice_date": "2023-06-07"
+  },
+  {
+    "invoice_number": "inv-8910",
+    "customer_name": "Hannah Black",
+    "salesperson_name": "Ian Blue",
+    "product_sold": [
+      {
+        "id": 1,
+        "name": "Produk 1",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 100,
+        "price": 10.0,
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 2
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for Hannah Black.",
+    "total_amount": 70.0,
+    "invoice_date": "2023-06-08"
+  },
+  {
+    "invoice_number": "inv-1122",
+    "customer_name": "Ian White",
+    "salesperson_name": "Jack Brown",
+    "product_sold": [
+      {
+        "id": 1,
+        "name": "Produk 1",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 100,
+        "price": 10.0,
+        "quantity": 4
+      },
+      {
+        "id": 2,
+        "name": "Produk 2",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 200,
+        "price": 20.0,
+        "quantity": 1
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for Ian White.",
+    "total_amount": 80.0,
+    "invoice_date": "2023-06-09"
+  },
+  {
+    "invoice_number": "inv-3344",
+    "customer_name": "Jack Green",
+    "salesperson_name": "Kelly Yellow",
+    "product_sold": [
+      {
+        "id": 3,
+        "name": "Produk 3",
+        "picture": "https://plus.unsplash.com/premium_photo-1661603403807-aa68bfcc983a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": 300,
+        "price": 30.0,
+        "quantity": 3
+      }
+    ],
+    "invoice_notes": "Invoice invoice_notes for Jack Green.",
+    "total_amount": 90.0,
+    "invoice_date": "2023-06-10"
+  }
+]

@@ -6,7 +6,7 @@ import invoices from "@/api/invoices.json";
 
 import { ModalDetail } from "@/components/modal";
 
-export default function Home() {
+export default function InvoiceList() {
   return (
     <div className="flex flex-col w-full gap-2 px-4 py-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-black">
       <h2 className="text-lg font-semibold px-4">Invoice Cards</h2>
