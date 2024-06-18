@@ -1,4 +1,5 @@
 "use client";
+import { Invoice } from "@/types";
 import {
   Button,
   Image,
@@ -8,30 +9,11 @@ import {
 } from "@nextui-org/react";
 import { Fragment } from "react";
 
-interface Invoice {
-  invoice_number: string;
-  customer_name: string;
-  salesperson_name: string;
-  product_sold: Product[];
-  invoice_notes: string;
-  total_amount: number;
-  invoice_date: string;
-}
-
-interface Product {
-  id: number;
-  name: string;
-  picture: string;
-  stock: number;
-  price: number;
-  quantity?: number;
-}
-
 export const ModalDetail: React.FC<Invoice> = ({
   invoice_number,
   customer_name,
   salesperson_name,
-  product_sold,
+  products_sold,
   invoice_notes,
   total_amount,
   invoice_date,
@@ -96,7 +78,7 @@ export const ModalDetail: React.FC<Invoice> = ({
                 </tr>
               </thead>
               <tbody>
-                {product_sold.map((product) => (
+                {products_sold.map((product) => (
                   <tr key={product?.id} className="border-b border-gray-200">
                     <td className="max-w-0 py-5 pl-4 pr-3 text-sm sm:pl-0">
                       <div className="font-medium text-gray-900">

@@ -8,10 +8,11 @@ export type Product = {
 };
 
 export type Invoice = {
+  id?: string;
   invoice_number: string;
   customer_name: string;
   salesperson_name: string;
-  product_sold: Product[];
+  products_sold: Product[];
   invoice_notes: string;
   total_amount: number;
   invoice_date: string;
